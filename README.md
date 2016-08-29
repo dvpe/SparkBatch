@@ -17,3 +17,5 @@ Example: <i>java -jar SparkBatch-1.0-SNAPSHOT-Standalone.jar hdfs://127.0.1.1:90
 Run in cluster mode:
 spark-submit --master mode  --class com.datio.core.AvroToParquetHdfs SparkBatch-1.0-SNAPSHOT-Avro.jar inputFile/inputFolder outputFolder </br>
 Example: <i>spark-submit --master local[4]  --class com.datio.core.AvroToParquetHdfs SparkBatch-1.0-SNAPSHOT-Avro.jar hdfs://127.0.1.1:9000/user/root/prueba/avrofiles hdfs://127.0.1.1:9000/user/root/prueba/twitter.parquet </i></br>
+
+David
